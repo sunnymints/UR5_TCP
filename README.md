@@ -1,7 +1,10 @@
 # 1 .UR5_TCP_grip_for_onrobot
+
 要求：
 
 python3
+
+执行文件：
 TCPClient.py
 
 使用python通过TCP使通讯指令onrobot和ros中间切换
@@ -24,12 +27,16 @@ TCPClient.py
 
        当然也可以用脚本直接控制夹爪和ur5，后续整理
 
-# 2 .ur5moverealrobot.py
+# 2 .ur5moverealrobot
+
 要求：
 
 python3
 pybullet
 serial
+
+执行文件：
+ur5moverealrobot.py
 
 代码有三个部分组成：
 pybullet部分
