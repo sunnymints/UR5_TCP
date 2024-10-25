@@ -20,3 +20,14 @@ TCPClient.py
        self.tcp_send(message)
 
        当然也可以用脚本直接控制夹爪和ur5，后续整理
+
+# 2 .ur5moverealrobot.py
+python3
+pybullet
+serial
+
+代码有三个部分组成：
+pybullet部分
+ur5通讯控制部分
+力控传感器通讯部分
+完整的demo2涉及三个部分，其它的对应取用
